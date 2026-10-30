@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="../images/logo.png">
 
 <!-- 태초갈비 명동점 | 남은 빈칸은 Ctrl+F로 {{ 검색 -->
 
@@ -547,7 +548,7 @@
   <h2 class="disp">予約・お問い合わせ</h2>
   <div class="action-grid">
     <a href="https://www.catchtable.net/shop/myeongdongeel" target="_blank" rel="noopener" class="btn outline-light" onclick="gtag('event','reservation_click',{method:'catchtable'})">キャッチテーブル予約</a>
-    <a href="https://map.naver.com/p/entry/place/1281983788?placePath=%2Fbooking%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202610191623%26locale%3Dko%26svcName%3Dmap_pcv5&c=15.00,0,0,0,dh" target="_blank" rel="noopener" class="btn outline-light" onclick="gtag('event','reservation_click',{method:'naver'})">ネイバー予約</a>
+    <a href="https://map.naver.com/p/entry/place/1281983788?placePath=%2Fbooking" target="_blank" rel="noopener" class="btn outline-light" onclick="gtag('event','reservation_click',{method:'naver'})">ネイバー予約</a>
     <a href="tel:+82-2-318-1092" class="btn outline-light" onclick="gtag('event','phone_click')">電話する</a>
   </div>
 </section>
@@ -576,7 +577,7 @@
   <div class="reserve-dropdown">
     <div class="reserve-menu" id="reserveMenu">
       <a href="https://www.catchtable.net/shop/myeongdongeel" target="_blank" rel="noopener" onclick="gtag('event','reservation_click',{method:'catchtable',position:'floating'})">キャッチテーブル予約</a>
-      <a href="https://map.naver.com/p/entry/place/1281983788?placePath=%2Fbooking%3FfromPanelNum%3D1%26additionalHeight%3D76%26timestamp%3D202610191623%26locale%3Dko%26svcName%3Dmap_pcv5&c=15.00,0,0,0,dh" target="_blank" rel="noopener" onclick="gtag('event','reservation_click',{method:'naver',position:'floating'})">ネイバー予約</a>
+      <a href="https://map.naver.com/p/entry/place/1281983788?placePath=%2Fbooking" target="_blank" rel="noopener" onclick="gtag('event','reservation_click',{method:'naver',position:'floating'})">ネイバー予約</a>
     </div>
     <button type="button" class="floating-btn reserve" onclick="toggleMenu('reserveMenu')"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
       <span>予約する</span></button>
